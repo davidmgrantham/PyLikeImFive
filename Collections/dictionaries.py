@@ -38,9 +38,9 @@ print("Dictionary Compare the_dict and same_dict: ", the_dict == same_dict)
 
 print('') # Just for spacing in output :D
 
-print('=' * 15)
-print("Getting Values")
-print('=' * 15)
+print('=' * 16)
+print(" Getting Values")
+print('=' * 16)
 
 print('') # Just for spacing in output :D
 
@@ -62,9 +62,9 @@ print(dict(the_dict).get("Captain"))
 
 print('') # Just for spacing in output :D
 
-print('=' * 15)
-print("Adding Key/Values")
-print('=' * 15)
+print('=' * 19)
+print(" Adding Key/Values")
+print('=' * 19)
 
 print('') # Just for spacing in output :D
 
@@ -83,3 +83,7 @@ print(the_dict)
 # Updating key/values
 # Clearing dictionary
 # Deleting things in dictionary
+# popping values
+# iteration methods
+# Getting just values
+# getting just keys
