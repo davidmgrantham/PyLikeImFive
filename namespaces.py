@@ -32,7 +32,7 @@ print(dir(a))
 
 print('') # Just for spacing in output :D
 
-print("=====The namespace for the python language=====")
+print("=====The namespace given when the interpreter is started=====")
 print(dir())
 
 print('') # Just for spacing in output :D
