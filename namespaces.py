@@ -45,10 +45,10 @@ print('') # Just for spacing in output :D
 
 # Notice that a is in the global namespace since we bound 2 to a.
 print("=====The namespace for the global namespace=====")
-print(dir(globals))
+print(dir(globals()))
 
 print('') # Just for spacing in output :D
 
 # This will look the name as the global namespace unless used inside a function. See scopes.py
 print("=====The namespace for the local namespace=====")
-print(dir(locals))
+print(dir(locals()))
