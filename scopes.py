@@ -2,11 +2,13 @@
 
 print("======Scoping Rules go from narrowest to widest=====")
 print("L - 'Local'. Refers to variables that are defined inside of functions.")
-print("E - 'Enclosing'. Refers to variables that are defined in the local scope of function inside of other functions.")
+print(
+    "E - 'Enclosing'. Refers to variables that are defined in the local scope of function inside of other functions."
+)
 print("G - 'Global' - Variables defined at the top level of files and modules.")
 print("B - 'Built-In - Names loaded into scope by the interpreter when it starts up")
 
-print('') # Just for spacing in output :D
+print("")  # Just for spacing in output :D
 
 print("=====Widest to Narrowest=====")
 print("=Built-in=")
@@ -14,12 +16,12 @@ print("   =Global=")
 print("      =Enclosed=")
 print("         =Local=")
 
-print('') # Just for spacing in output :D
+print("")  # Just for spacing in output :D
 
 print("=====Example Scopes=====")
 
 print(
-"""
+    """
 x = 1
 
 def outer():
@@ -35,30 +37,47 @@ def outer():
 
 print("x =", x)
 outer()
-""")
+"""
+)
 
-print('') # Just for spacing in output :D
+print("")  # Just for spacing in output :D
 
 x = 1
+
 
 def outer():
     # Enclosed Scope
     x = "Outer"
+
     def inner():
         # Local Scope
         x = "Inner"
-        print("x =", x, "- This represents the local scope. If the variable is not defined within the inner function then it will look to the enclosed scope which is the outer function")
-    
-    inner()
-    print("x =", x, "- This reprsents the enclosed scope. If the variable is not defined within the outer function it will look to the global scope.")
+        print(
+            "x =",
+            x,
+            "- This represents the local scope. If the variable is not defined within the inner function then it will look to the enclosed scope which is the outer function",
+        )
 
-print("x =", x, "- This respresents the scope created when the interpreter is crested at the global level.")
+    inner()
+    print(
+        "x =",
+        x,
+        "- This reprsents the enclosed scope. If the variable is not defined within the outer function it will look to the global scope.",
+    )
+
+
+print(
+    "x =",
+    x,
+    "- This respresents the scope created when the interpreter is crested at the global level.",
+)
 outer()
 
-print('') # Just for spacing in output :D
+print("")  # Just for spacing in output :D
 
 print("=====Visualizing Namespaces In Scope=====")
-print("""\
+print(
+    """\
 This is hard to visualize within the code itself, but if 
 you debug this code it will enable you to see the namespaces 
 for local and global. Viewing the namespaces you will be able
