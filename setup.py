@@ -1,12 +1,13 @@
 from setuptools import find_packages, setup
 
-requirements = ["boto3", "pyyaml"]
+requirements = ["python-fasthtml", "pyyaml"]
 
 requirements_dev = [
     "flask",
     "pytest",
     "pytest-cov",
     "pytest-html",
+    "python-fasthtml",
     "pyyaml",
 ]
 

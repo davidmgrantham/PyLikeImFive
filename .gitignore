@@ -16,3 +16,4 @@ Dockerfile
 coverage/
 .vscode/
 htmlcov/
+.sesskey
