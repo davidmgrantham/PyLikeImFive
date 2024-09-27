@@ -1,3 +1,10 @@
+# Define an empty list.
+queens = []
+print(queens)
+# Expected Output:
+# []
+
+# Define a list by using equare brackets.
 kings = ['Henry VIII', 'George III', 'Edward I', 'William I']
 
 print(kings)
