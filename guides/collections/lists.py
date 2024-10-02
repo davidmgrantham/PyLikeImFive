@@ -1,6 +1,6 @@
 # Define an empty list.
-queens = []
-print(queens)
+kings = []
+print(kings)
 # Expected Output:
 # []
 
