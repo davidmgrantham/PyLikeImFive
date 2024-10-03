@@ -1,14 +1,12 @@
 from setuptools import find_packages, setup
 
-requirements = ["python-fasthtml", "pyyaml"]
+requirements = ["flask"]
 
 requirements_dev = [
     "flask",
     "pytest",
     "pytest-cov",
     "pytest-html",
-    "python-fasthtml",
-    "pyyaml",
 ]
 
 setup(
