@@ -1,9 +1,10 @@
 from setuptools import find_packages, setup
 
-requirements = ["flask"]
+requirements = ["flask", "pygments"]
 
 requirements_dev = [
     "flask",
+    "pygments",
     "pytest",
     "pytest-cov",
     "pytest-html",

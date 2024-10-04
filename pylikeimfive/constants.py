@@ -1,0 +1,1 @@
+PYGMENT_STYLE = "lightbulb"
